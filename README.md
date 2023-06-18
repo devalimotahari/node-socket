@@ -1,30 +1,53 @@
 # node-socket
-nodejs socket io chat and file uploader
+simple nodejs socket.io to chat and upload file.
 
-# intall dependecies
-`npm install`
+# install dependecies
+```sh
+npm install
+```
 
 # run server
-`npm run server`
+```sh
+npm run server
+```
 
 # run client
-`npm run client {user name}`\
-e.g. `npm run client ali`\
-e.g. `npm run client amir`
+```sh
+npm run client {user name}
+```
+e.g.
+```sh
+npm run client ali
+```
+```sh
+npm run client amir
+```
 
 # send message:
 absolutely send your message in command line when client was connected.
 
 # send file
 when client running, in client command:\
-`sfile:{filename}`\
-e.g. `sfile:text.txt`
+```sh
+sfile:{filename}
+```
+e.g.
+```sh
+sfile:text.txt
+```
 
 
 # get file
 when client running, in client command:\
-`gfile:{filename}`\
-e.g. `gfile:text.txt`
+```sh
+gfile:{filename}
+```
+e.g.
+```sh
+gfile:text.txt
+```
 
-# for exit type: 
-`exit()`
+# for exit, type: 
+```sh
+exit()
+```
